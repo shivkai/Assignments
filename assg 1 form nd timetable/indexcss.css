@@ -1,0 +1,46 @@
+ /* form */
+    h1:nth-of-type(1){
+        background-color:whitesmoke;
+    text-align:center;
+    }
+.biodata{
+    background-color:bisque;
+}
+legend{
+    background-color: azure;
+}
+input:focus{
+    background-color:blanchedalmond;
+}
+ /* time table */
+table,th,td{
+    border:2px solid grey;
+    text-align:center;
+  
+}
+td:hover{
+  background-color: chartreuse;
+  
+}
+th:hover{
+background-color: azure;
+}
+h1:nth-of-type(2){
+    text-align:center;
+    background-color: cornflowerblue;
+   }
+   table{
+padding:5px;
+       background-color:rgb(173, 205, 206);
+   }
+th,td{
+    background-color:cadetblue;
+    padding:8px;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
