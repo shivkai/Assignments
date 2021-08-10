@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <title>Portfolio</title>
+  <style>
+    .divider-grey {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 50px;
+    border-top: 2px solid #b3b3b1;
+    padding-bottom: 40px;
+}
+ul li a{
+  color:rgb(41, 22, 22);
+  font-size: 1.2rem;
+}
+section{
+  color:black;
+}
+.divider-green {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 50px;
+    border-top: 2px solid green;
+    padding-bottom: 40px;
+}
+.nav-link{
+  color:white;
+}
+.nav-link:hover{
+  background-color:rgb(209, 204, 204);
+}
+.bg-gray{
+  background-color:#A9A9A9;
+  padding:100px;
+  color:black;
+}
+.bg-gray h2{
+  color:rgb(9, 78, 121);
+}
+.text-black{
+  color:black;
+}
+body{
+  background-color: #111111;
+  color:honeydew;
+}
+  </style>
+</head>
+<body id="page-top" >
+  <!-- <h1>Hello</h1> -->
+
+  <header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+    <div class="container">
+      <a class="navbar-brand" href="#">Shivansh Sharma</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse  justify-content-end" id="navbarSupportedContent">
+  <ul class="nav navbar-light">
+    <li class="nav-item ">
+      <a class="nav-link active" aria-current="page" href="#aboutme">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#projects">Project</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#contactme">Contact</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </li>
+  </ul>
+</div>
+</div>
+</nav>
+</header>
+<!-- bg-light -->
+<div class="p-5 bg-gradient mb-4  rounded-3 " style="height:550px;">
+  <div class="container-fluid py-5 mt-5" style="text-align: center;">
+    <h1 class="display-5 fw-bold">Hello Welcome</h1>
+    <p class="col fs-4 ml-2">I am Computer science engineering student at Chitkara university.</p>
+    <button class="btn btn-primary btn-lg" type="button">My Projects</button>
+  </div>
+</div>
+<!-- ....................................... -->
+<section id="aboutme" class="bg-gray w-100">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h2 class="section-heading" >About Me</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-1"></div>
+    <div class="col-lg-2 text-center">
+      <img src="https://images.unsplash.com/photo-1431440869543-efaf3388c585?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFya3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="img-thumbnail" style="height:150px;">
+    </div>
+    <div class="col-lg-7">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, totam?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, totam?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, totam?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, totam?</p>
+
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ............................................... -->
+<section id="projects" >
+  <div class="container bg-light">
+    <div class="row ">
+      <div class="col-lg-12 text-center mt-5"><h1 class="section-heading">Projects</h1></div>
+   <div class="divider-green"></div>
+    </div>
+<div class="row align-items-md-stretch">
+  <div class="col-md-6">
+    <div class="h-100 p-5 text-white bg-dark rounded-3">
+      <h2>Change the background</h2>
+      <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+      <button class="btn btn-outline-light" type="button">Example button</button>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="h-100 p-5 bg-white border rounded-3">
+      <h2>Add borders</h2>
+      <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+      <button class="btn btn-outline-secondary" type="button">Example button</button>
+    </div>
+  </div>
+</div>
+
+<div class="row align-items-md-stretch">
+  <div class="col-md-6">
+    <div class="h-100 p-5 bg-white border rounded-3">
+      <h2>Add borders</h2>
+      <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+      <button class="btn btn-outline-secondary" type="button">Example button</button>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="h-100 p-5 text-white bg-dark rounded-3">
+      <h2>Change the background</h2>
+      <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+      <button class="btn btn-outline-light" type="button">Example button</button>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<section id="moreabout " >
+  <div class="container mt-5 h-100">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading" style="color:white;">More About Me</h2>
+        <div class="divider-green"></div>
+      </div>
+    </div>
+    <div class="row text-center w-100 h-50">
+      <div class="col-lg-4 ">
+        <div class="card" style="width: 16rem;height: 20rem;">
+          <img src=https://images.unsplash.com/photo-1484950763426-56b5bf172dbb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzJ8fGRhcmt8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="..." style="width: 100%;">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 ">
+        <div class="card" style="width: 16rem;height: 20rem;">
+          <img src="https://images.unsplash.com/photo-1489846986031-7cea03ab8fd0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGRhcmt8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="..." style="width: 100%;">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 ">
+        <div class="card" style="width: 16rem;height: 20rem;">
+          <img src="https://images.unsplash.com/photo-1483356256511-b48749959172?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fGRhcmt8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="..." style="width: 100%;">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+                    <!-- project end here -->
+
+                    <!-- footer or contact me starts -->
+                    <section id="contactme" >
+                      <div class="container mt-5 bg-dark">
+                        <div class="row">
+                          <div class="col-lg-12 text-center mt-4">
+                            <h2 class="section-heading">Contact me</h2>
+                            <h3 class="section-subheading">Feel free to get in touch</h3>
+                          </div>
+                          <div class="row justify-content-center mt-4">
+                            <div class="col-lg-4" style="width:16rem;;">
+                              <div class="card text-center" style="height: 15rem;">
+                                <div class="card-body text-center mt-5">
+                                  <h3 class="fw-light text-black" > Resume</h3>
+                                  <p class="mt-4"><a href="#">Download</a></p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-4" style="width:16rem;">
+                              <div class="card" style="height: 15rem;">
+                                <div class="card-body text-center mt-5">
+                                  <h3 class="fw-light">Email</h3>
+                                  <p class="mt-4"><a href="#">hunter@dragon.com</a></p>
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
